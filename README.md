@@ -1,5 +1,5 @@
 # remove-fb-friends
-This repos aims at mass removing all your friends from facebook.
+This code help you to mass remove all your friends from facebook automatically.
 
 From your web browser you will need the console to execute the following code.
 
