@@ -1,7 +1,7 @@
 # remove-fb-friends
-mass remove facebook friend
+This repos aims at mass removing all your friends from facebook.
 
-From webbrowser
+From your web browser you will need the console to execute the following code.
 
 1) Go to https://m.facebook.com/friends/center/friends
 2) Open console and paste jquery-min code https://code.jquery.com/jquery-3.6.0.min.js
