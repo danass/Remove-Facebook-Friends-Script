@@ -1,20 +1,21 @@
 // from https://m.facebook.com/friends/center/friends 
 // first copy paste: https://code.jquery.com/jquery-3.6.0.min.js
 
-
+//retrieving all page html
 let ok = this.document
+
+//finding the remove friend button div, and storing a copy of it
 let firstrec = ok.firstChild.nextSibling.firstChild.nextElementSibling.firstChild.nextElementSibling.firstChild.nextElementSibling.firstChild.nextElementSibling.nextElementSibling.nextElementSibling.firstElementChild.firstElementChild.firstElementChild.nextElementSibling.firstElementChild
 nextrec = firstrec
 
-// simulate click function
+// simulation of a click function for all scenarios
 async function clickf(div, entry) {
     if (entry == null) {
         await $(div).click()
         return await $(div).click()
     }
     if (entry == "0") {
-        console.log("ehhe")
-        await $(div)[0].click()browse
+        await $(div)[0].click()
         return await $(div)[0].click()
     }
 }
@@ -41,4 +42,5 @@ function greet() {
     removefb().next()
 }
 
-setInterval(greet, 200);
+ // interval set to a large value, so fb doesn't identify you as suspicious
+setInterval(greet, 600);
