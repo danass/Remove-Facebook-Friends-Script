@@ -1,5 +1,6 @@
-// from https://m.facebook.com/friends/center/friends 
-// first copy paste: https://code.jquery.com/jquery-3.6.0.min.js
+// go to https://m.facebook.com/friends/center/friends 
+// open console and jquery paste: https://code.jquery.com/jquery-3.6.0.min.js
+//then paste the following code
 
 //retrieving all page html
 let ok = this.document
@@ -23,6 +24,7 @@ async function clickf(div, entry) {
 
 function* removefb() {
     while (true) {
+        //might be better to add a key listener to stop whenever you want.
         nextclick = nextrec.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild.firstElementChild.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling.firstElementChild
         nextreccopy = nextrec
         nextrec = nextrec.nextSibling
