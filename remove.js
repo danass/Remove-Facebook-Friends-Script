@@ -46,6 +46,9 @@
     function greet() {
         removefb().next()
     }
-
+function getRandomArbitrary(min, max) {
+  return Math.random() * (max - min) + min;
+}
     // interval set to a large value, so fb doesn't identify you as suspicious
-    setInterval(greet, 5000);
+    setInterval(greet, getRandomArbitrary(2000,5500));
+        
