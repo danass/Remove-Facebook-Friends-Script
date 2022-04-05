@@ -25,7 +25,7 @@
     function* removefb() {
         while (true) {
             //might be better to add a key listener to stop whenever you want.
-            nextclick = nextrec.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild.firstElementChild.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling.firstElementChild
+            nextclick = nextrec.firstElementChild.lastChild.lastElementChild.lastElementChild.lastElementChild.lastChild
 
             
             nextreccopy = nextrec
