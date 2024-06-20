@@ -2,12 +2,12 @@
 // Open the console and type "allow pasting" enter, and paste the code enter.
 
 function getRandomArbitrary(min, max) { return Math.random() * (max - min) + min; }
-function stopInterval() { clearInterval(interval); }
-function greet() { removeFriend().next(); }
+function stop() { clearInterval(interval); }
+function start() { removeFriend().next(); }
 
 function startInterval() {
     // Set interval to a large value to avoid suspicion from Facebook
-    interval = setInterval(greet, getRandomArbitrary(2000, 5500));
+    interval = setInterval(start, getRandomArbitrary(2000, 5500));
     return interval;
 }
 async function clickElement(element, entry) {
@@ -30,7 +30,7 @@ function* removeFriend() {
             nextRecord = nextRecord?.parentElement?.nextElementSibling?.firstElementChild;
 
             if (nextRecord == undefined) {
-                stopInterval(intervalId);
+                stop(intervalId);
             }
         }
         
