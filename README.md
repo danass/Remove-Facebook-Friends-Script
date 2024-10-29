@@ -9,4 +9,4 @@ This script mass remove all your friends from facebook, one after another.
 5) type "**stop()**" if need to stop deletion process. 
 
 Beware, **this is a one way ticket**.
-Facebook may block you from doing this if you have a lot of friends; we added random delays to prevent detection, but it may still happen.
+Facebook may block you temporarily from doing this if you have a lot of friends; we added random delays to prevent detection, but it may still happen.
