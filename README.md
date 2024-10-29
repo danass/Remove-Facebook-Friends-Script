@@ -1,4 +1,4 @@
-# Remove facebook friends, automatically !
+# Remove all facebook friends, automatically !
 
 This script mass remove all your friends from facebook, one after another.
 
